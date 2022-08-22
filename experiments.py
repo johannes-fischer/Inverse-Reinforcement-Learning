@@ -400,6 +400,8 @@ def test_ow_over_samples(grid_size, n_objects, n_colours, discrete, l1, l2,
     return maxent_data, deep_maxent_data
 
 if __name__ == '__main__':
+    # test_ow_once(16, 25, 2, False, 0, 0, 32,
+    #              150, (3, 3))
     # Tests the 16 x 16 objectworld.
     print(test_ow_over_samples(16, 25, 2, False, 0, 0, 150, (3, 3), 10))
     # Tests the 32 x 32 objectworld.
